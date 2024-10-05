@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "e40f6427-b63e-4c60-95ec-d782d2d3c4d0")
 	(paper "A4")
+	(title_block
+		(title "Beerpak")
+		(company "©2024 Luca Anastasio")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
@@ -5656,7 +5660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 247.3452 63.5 0)
 			(effects
 				(font
@@ -7907,7 +7911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 134.3152 134.62 0)
 			(effects
 				(font
@@ -9351,7 +9355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 242.2652 135.89 0)
 			(effects
 				(font

@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "d74266b4-9042-4733-9fc1-4738e6f07641")
 	(paper "A4")
+	(title_block
+		(title "Beerpak")
+		(company "©2024 Luca Anastasio")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
@@ -1766,24 +1770,6 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -11.43 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -10.16 6.35 0)
 					(length 2.54)
 					(name "VIN"
@@ -1839,7 +1825,7 @@
 				)
 				(pin power_in line
 					(at 0 -11.43 90)
-					(length 2.54) hide
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -3871,9 +3857,6 @@
 		(pin "2"
 			(uuid "5fe91c65-c1bc-43f3-a710-d72eb75308ed")
 		)
-		(pin ""
-			(uuid "4a05e048-a1a5-4263-95aa-96234884def4")
-		)
 		(pin "3"
 			(uuid "70d582ef-46c1-447c-bed0-55866f125209")
 		)
@@ -4266,7 +4249,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 39.0652 64.77 0)
 			(effects
 				(font
@@ -4334,7 +4317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 222.885 72.39 0)
 			(effects
 				(font
@@ -5083,7 +5066,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 55.5752 138.43 0)
 			(effects
 				(font
@@ -5759,7 +5742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 96.2152 138.43 0)
 			(effects
 				(font

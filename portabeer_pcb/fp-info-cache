@@ -1,4 +1,4 @@
-23684968567230787
+23702720972869949
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96319,3 +96319,80 @@ Connector
 0
 28
 25
+portabeer
+GMG12864-06D
+Through hole straight socket strip, 1x13, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x13 2.54mm single row
+0
+13
+13
+portabeer
+Molex_KK-254_1x02_P2.54mm_Horizontal
+Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
+connector Molex KK-254 side entry
+0
+2
+2
+portabeer
+Molex_KK-254_1x03_P2.54mm_Horizontal
+Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
+connector Molex KK-254 side entry
+0
+3
+3
+portabeer
+Molex_KK-254_1x04_P2.54mm_Horizontal
+Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
+connector Molex KK-254 side entry
+0
+4
+4
+portabeer
+Molex_KK-254_1x05_P2.54mm_Horizontal
+Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
+connector Molex KK-254 side entry
+0
+5
+5
+portabeer
+Molex_KK-254_1x06_P2.54mm_Horizontal
+Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
+connector Molex KK-254 side entry
+0
+6
+6
+portabeer
+Molex_KK-254_1x08_P2.54mm_Horizontal
+Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
+connector Molex KK-254 side entry
+0
+8
+8
+portabeer
+Molex_KK-254_1x09_P2.54mm_Horizontal
+Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
+connector Molex KK-254 side entry
+0
+9
+9
+portabeer
+Molex_KK-254_1x10_P2.54mm_Horizontal
+Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
+connector Molex KK-254 side entry
+0
+10
+10
+portabeer
+Molex_KK-254_1x12_P2.54mm_Horizontal
+Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
+connector Molex KK-254 side entry
+0
+12
+12
+portabeer
+TO-252-6L
+TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/
+DPAK TO-252 DPAK-5 TO-252-5
+0
+9
+4

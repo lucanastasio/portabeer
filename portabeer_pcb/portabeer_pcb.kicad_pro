@@ -649,7 +649,7 @@
     ],
     [
       "1ca0c29a-6ba2-4ece-84f7-47eff36014c5",
-      "Power"
+      "PWR"
     ],
     [
       "f009f0e5-f5e3-47e7-a68b-ece77000ca73",
@@ -657,19 +657,27 @@
     ],
     [
       "1d31c221-9102-4c6e-88ae-84173ddae6a8",
-      "Battery"
+      "BAT"
     ],
     [
       "420d7ab6-7a6e-404c-b820-acde96549ae5",
-      "Dispenser 1"
+      "KEG1"
     ],
     [
       "82d26029-2514-464b-b918-c848fe41d8d3",
-      "Dispenser 2"
+      "KEG2"
     ],
     [
       "d5db841d-87ae-4782-b433-7e903d5a1efe",
       "Driver"
+    ],
+    [
+      "809d6f80-202f-4879-89a2-302462a9f64c",
+      "EXP"
+    ],
+    [
+      "5a553efe-fdd1-456a-b178-13fdb1a5b127",
+      "UI"
     ],
     [
       "d5db841d-87ae-4782-b433-7e903d5a1efe",

@@ -7,7 +7,9 @@ General diagram
 
 Electronics diagram
 
+![Diagram](docs/portabeer_pcb.png)
 
+[Schematic PDF](portabeer_pcb/outputs/portabeer_pcb.pdf)
 
 ## Features
 - Li-ion/Lipo battery + fuel gauge + charger

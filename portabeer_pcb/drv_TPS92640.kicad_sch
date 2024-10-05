@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "2ba85d8d-60ab-4ecd-a3aa-1cff8c60e416")
 	(paper "A4")
+	(title_block
+		(title "Beerpak")
+		(company "©2024 Luca Anastasio")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
@@ -3287,7 +3291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 70.8152 35.56 0)
 			(effects
 				(font
@@ -5565,7 +5569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 145.415 60.96 0)
 			(effects
 				(font
