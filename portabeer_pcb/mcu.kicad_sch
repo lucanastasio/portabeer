@@ -8672,7 +8672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10118193-0001LF_Horizontal"
+		(property "Footprint" "portabeer:USB_Micro-B_Amphenol_10118193-0001LF_Horizontal"
 			(at 27.94 74.93 0)
 			(effects
 				(font
@@ -8754,7 +8754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+		(property "Footprint" "portabeer:SOIC-8_5.23x5.23mm_P1.27mm"
 			(at 77.47 163.83 0)
 			(effects
 				(font

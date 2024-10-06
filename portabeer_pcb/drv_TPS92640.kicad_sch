@@ -2702,7 +2702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+		(property "Footprint" "portabeer:PowerPAK_SO-8_Single"
 			(at 193.04 88.265 0)
 			(effects
 				(font
@@ -3291,7 +3291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 70.8152 35.56 0)
 			(effects
 				(font
@@ -3630,76 +3630,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 88.9 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "702711a9-234b-449f-8756-a1dc42bb555a")
-		(property "Reference" "#PWR0217"
-			(at 88.9 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 88.9 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 88.9 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dda49888-db92-43d3-a9cb-068ceb5bcd3e")
-		)
-		(instances
-			(project "portabeer_pcb"
-				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/420d7ab6-7a6e-404c-b820-acde96549ae5/d5db841d-87ae-4782-b433-7e903d5a1efe"
-					(reference "#PWR0217")
-					(unit 1)
-				)
-				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/82d26029-2514-464b-b918-c848fe41d8d3/d5db841d-87ae-4782-b433-7e903d5a1efe"
-					(reference "#PWR0262")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 215.9 101.6 0)
 		(mirror y)
@@ -3771,76 +3701,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "871e2bbd-4832-4a5c-bbb7-07de30c19648")
-		(property "Reference" "#PWR0218"
-			(at 88.9 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f772c160-8493-4cff-8d3b-030cbe9ca9ef")
-		)
-		(instances
-			(project "portabeer_pcb"
-				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/420d7ab6-7a6e-404c-b820-acde96549ae5/d5db841d-87ae-4782-b433-7e903d5a1efe"
-					(reference "#PWR0218")
-					(unit 1)
-				)
-				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/82d26029-2514-464b-b918-c848fe41d8d3/d5db841d-87ae-4782-b433-7e903d5a1efe"
-					(reference "#PWR0263")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:Si7336ADP")
 		(at 187.96 71.12 0)
 		(unit 1)
@@ -3868,7 +3728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+		(property "Footprint" "portabeer:PowerPAK_SO-8_Single"
 			(at 193.04 73.025 0)
 			(effects
 				(font
@@ -4780,80 +4640,6 @@
 				)
 				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/82d26029-2514-464b-b918-c848fe41d8d3/d5db841d-87ae-4782-b433-7e903d5a1efe"
 					(reference "R92")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 88.9 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b83f34c7-d1e5-4d85-be5c-4332b84d0790")
-		(property "Reference" "C68"
-			(at 92.71 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 92.71 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 89.8652 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 88.9 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2a66f642-a447-4727-9685-678aa080c5fd")
-		)
-		(pin "1"
-			(uuid "7fb88baa-f80c-4e27-8622-43b1861cca14")
-		)
-		(instances
-			(project "portabeer_pcb"
-				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/420d7ab6-7a6e-404c-b820-acde96549ae5/d5db841d-87ae-4782-b433-7e903d5a1efe"
-					(reference "C68")
-					(unit 1)
-				)
-				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/82d26029-2514-464b-b918-c848fe41d8d3/d5db841d-87ae-4782-b433-7e903d5a1efe"
-					(reference "C81")
 					(unit 1)
 				)
 			)

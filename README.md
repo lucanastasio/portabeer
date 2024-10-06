@@ -1,11 +1,13 @@
 # Portabeer/Beerpak
 Portable draft beer in a backpack! Independently chill and tap up to two kegs: it can be used with two different kinds of beer or wine and even for mixing drinks on the fly. Chilling can be achieved by either indirect heat exchange (option A) or inline direct heat exchange (option B). 
 
-General diagram
+## General diagram
 
 ![Diagram](docs/portabeer.png)
 
-Electronics diagram
+Note: two kegs, when used, may share one air pump.
+
+## Electronics diagram
 
 ![Diagram](docs/portabeer_pcb.png)
 

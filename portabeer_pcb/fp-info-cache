@@ -1,4 +1,4 @@
-23702720972869949
+23714818811860436
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96320,6 +96320,20 @@ Connector
 28
 25
 portabeer
+AMASS_XT60IPW-M_1x03_P7.20mm_Horizontal
+Connector XT60 Horizontal PCB Male, https://www.bto.pl/pdf/08988/XT60IPW-M3.pdf
+RC Connector XT60
+0
+5
+3
+portabeer
+DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm
+DFN, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/4320fb.pdf#page=10), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+10
+9
+portabeer
 GMG12864-06D
 Through hole straight socket strip, 1x13, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
 Through hole socket strip THT 1x13 2.54mm single row
@@ -96390,9 +96404,44 @@ connector Molex KK-254 side entry
 12
 12
 portabeer
+PowerPAK_SO-8_Single
+PowerPAK SO-8 Single (https://www.vishay.com/docs/71655/powerpak.pdf, https://www.vishay.com/docs/72599/72599.pdf)
+PowerPAK SO-8 Single
+0
+9
+5
+portabeer
+RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
+portabeer
+SOIC-8_5.23x5.23mm_P1.27mm
+SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+portabeer
 TO-252-6L
 TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/
 DPAK TO-252 DPAK-5 TO-252-5
 0
 9
 4
+portabeer
+USB_Micro-B_Amphenol_10118193-0001LF_Horizontal
+USB Micro-B receptacle, horizontal, SMD, 10118193, with flange, https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118193.pdf
+USB Micro-B horizontal SMD
+0
+11
+6
+portabeer
+Vishay_PowerPAK_1212-8_Single
+PowerPAK 1212-8 Single (https://www.vishay.com/docs/71656/ppak12128.pdf, https://www.vishay.com/docs/72597/72597.pdf)
+Vishay PowerPAK 1212-8 Single
+0
+5
+5
