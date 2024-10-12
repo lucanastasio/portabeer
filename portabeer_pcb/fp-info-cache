@@ -1,4 +1,4 @@
-23714818811860436
+23723460952172500
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96334,12 +96334,47 @@ DFN NoLead
 10
 9
 portabeer
+Fuseholder_Blade_Micro
+fuse holder, car blade fuse mini, http://www.keyelco.com/product-pdf.cfm?p=306
+car blade fuse mini
+0
+4
+2
+portabeer
 GMG12864-06D
 Through hole straight socket strip, 1x13, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
 Through hole socket strip THT 1x13 2.54mm single row
 0
 13
 13
+portabeer
+Heatsink_9x9x5mm_adhesive
+
+
+0
+0
+0
+portabeer
+Heatsink_14x14x6mm_adhesive
+
+
+0
+0
+0
+portabeer
+L_Taiyo-Yuden_NR-40xx
+Inductor, Taiyo Yuden, NR series, Taiyo-Yuden_NR-40xx, 4.0mmx4.0mm
+inductor taiyo-yuden nr smd
+0
+2
+2
+portabeer
+L_Taiyo-Yuden_NR-50xx
+Inductor, Taiyo Yuden, NR series, Taiyo-Yuden_NR-50xx, 4.9mmx4.9mm
+inductor taiyo-yuden nr smd
+0
+2
+2
 portabeer
 Molex_KK-254_1x02_P2.54mm_Horizontal
 Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator

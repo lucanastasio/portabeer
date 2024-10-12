@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.7,
-          "height": 4.1,
-          "width": 4.1
+          "drill": 0.6,
+          "height": 2.0,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -189,7 +189,11 @@
         0.45,
         0.5,
         0.6,
-        1.0
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -236,6 +240,10 @@
         },
         {
           "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.5,
           "drill": 0.35
         },
         {
@@ -252,6 +260,10 @@
         },
         {
           "diameter": 0.6,
+          "drill": 0.4
+        },
+        {
+          "diameter": 0.6,
           "drill": 0.45
         },
         {
@@ -260,6 +272,10 @@
         },
         {
           "diameter": 0.65,
+          "drill": 0.5
+        },
+        {
+          "diameter": 0.7,
           "drill": 0.5
         }
       ],
@@ -513,7 +529,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
-        "via_diameter": 0.4,
+        "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
       }
