@@ -9,6 +9,145 @@
 		(company "©2024 Luca Anastasio")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -1151,590 +1290,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Motor:Fan_4pin"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "M"
-				(at 2.54 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Fan_4pin"
-				(at 2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
-				(at 0 0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Fan Motor tacho PWM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "FanPinHeader*P2.54mm*Vertical* PinHeader*P2.54mm*Vertical* TerminalBlock*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fan_4pin_0_0"
-				(arc
-					(start -5.588 1.524)
-					(mid -5.08 1.0182)
-					(end -4.572 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 2.032)
-					(mid -5.4392 1.8832)
-					(end -5.588 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.032) (xy -5.334 2.159)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.032) (xy -5.207 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.064 2.54) (xy -4.064 1.016) (xy -3.302 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fan_4pin_0_1"
-				(arc
-					(start -2.54 -0.508)
-					(mid 0.0028 0.9121)
-					(end 0 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.064 2.54) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.2352) (xy 0 -2.6416)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.2672) (xy 0 4.6228)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.572) (xy 0 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.016) (xy -4.064 -1.016) (xy -4.064 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.334 -3.302) (xy -5.08 -3.302) (xy -5.08 -3.048) (xy -4.826 -3.048) (xy -4.826 -3.302) (xy -4.318 -3.302)
-						(xy -4.318 -3.048) (xy -4.064 -3.048) (xy -4.064 -3.302) (xy -3.556 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.016)
-					(radius 3.2512)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.81)
-					(mid 0.053 0.921)
-					(end 2.54 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -0.508)
-					(mid 0 1.0618)
-					(end -2.54 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fan_4pin_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "Tacho"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "PWM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Motor:Fan_ALT"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "M"
-				(at 3.81 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "Fan_ALT"
-				(at 3.81 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fan without PWM or tach, alternative symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Fan Motor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fan_ALT_0_1"
-				(arc
-					(start -4.572 0)
-					(mid -2.286 -0.5988)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -4.318 1.524)
-					(mid -2.4153 0.0291)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 -4.318)
-					(mid -0.0291 -2.4153)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -4.572)
-					(mid 0.5988 -2.286)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.572) (xy 0 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 4.572)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 4.572)
-					(mid -0.5988 2.286)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 4.318)
-					(mid 0.0291 2.4153)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 4.318 -1.524)
-					(mid 2.4153 -0.0291)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 4.572 0)
-					(mid 2.286 0.5988)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fan_ALT_1_1"
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3040,7 +2595,7 @@
 		(uuid "005d1698-3fe6-4541-94db-fc349c54f779")
 	)
 	(junction
-		(at 222.25 33.02)
+		(at 238.76 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e5ac02d-3c1c-41ae-a1cf-8e8e3ab8b3c4")
@@ -3094,7 +2649,7 @@
 		(uuid "93a4723f-0964-4744-9ba6-2a9dfdc3887a")
 	)
 	(junction
-		(at 212.09 40.64)
+		(at 222.25 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae62ec7a-844b-40a6-ad9c-aeb6bf65b2b5")
@@ -3129,13 +2684,19 @@
 		(color 0 0 0 0)
 		(uuid "f8bbb2e5-ba2c-4b06-9a68-0620ab4d4359")
 	)
-	(no_connect
-		(at 214.63 45.72)
-		(uuid "86935044-b620-4c4c-8344-137b857b773c")
+	(wire
+		(pts
+			(xy 223.52 102.87) (xy 223.52 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027e22a0-40c6-4707-80dc-f184e13e2968")
 	)
 	(wire
 		(pts
-			(xy 222.25 30.48) (xy 222.25 33.02)
+			(xy 238.76 30.48) (xy 238.76 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3195,6 +2756,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 35.56) (xy 222.25 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1507202d-3f45-4a25-a3a3-a7341b8c1321")
+	)
+	(wire
+		(pts
 			(xy 146.05 160.02) (xy 143.51 160.02)
 		)
 		(stroke
@@ -3205,7 +2776,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 48.26) (xy 222.25 50.8)
+			(xy 222.25 35.56) (xy 222.25 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3225,7 +2796,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 40.64) (xy 214.63 40.64)
+			(xy 222.25 30.48) (xy 219.71 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3525,7 +3096,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 40.64) (xy 212.09 40.64)
+			(xy 224.79 30.48) (xy 222.25 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3562,6 +3133,16 @@
 			(type default)
 		)
 		(uuid "818670e9-64ea-4a77-953c-887003d61fa0")
+	)
+	(wire
+		(pts
+			(xy 220.98 111.76) (xy 223.52 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8375ade5-fc89-4892-b427-08aca0d2f031")
 	)
 	(wire
 		(pts
@@ -3665,16 +3246,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 102.87) (xy 223.52 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9f87342-057c-49a8-8245-cfa4d36630af")
-	)
-	(wire
-		(pts
 			(xy 160.02 176.53) (xy 160.02 179.07)
 		)
 		(stroke
@@ -3705,7 +3276,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 120.65) (xy 223.52 123.19)
+			(xy 223.52 114.3) (xy 223.52 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3725,7 +3296,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 33.02) (xy 222.25 33.02)
+			(xy 238.76 33.02) (xy 219.71 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3865,6 +3436,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 114.3) (xy 223.52 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ee6c02-1f5b-42e6-9df4-0c9b7270529b")
+	)
+	(wire
+		(pts
 			(xy 83.82 49.53) (xy 88.9 49.53)
 		)
 		(stroke
@@ -3895,23 +3476,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 38.1) (xy 212.09 40.64)
+			(xy 222.25 27.94) (xy 222.25 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f8d47854-f865-4dea-85e5-daa208087edc")
-	)
-	(wire
-		(pts
-			(xy 222.25 33.02) (xy 222.25 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f99da15a-eae8-4c35-acca-d96d5e5083ea")
 	)
 	(wire
 		(pts
@@ -4069,13 +3640,13 @@
 	)
 	(hierarchical_label "FAN_TACH"
 		(shape output)
-		(at 209.55 40.64 180)
+		(at 224.79 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "daad0e81-c6e7-48d0-9ef1-b0d0a36280d4")
 	)
@@ -4830,6 +4401,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 215.9 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f5ed9c6-647b-48ce-ad35-419deb51078b")
+		(property "Reference" "J21"
+			(at 215.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WATER PUMP"
+			(at 215.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15f688b0-ce6f-4b9e-8c90-d46a45ce5163")
+		)
+		(pin "1"
+			(uuid "61a2406e-0e50-4259-9528-868588444b01")
+		)
+		(instances
+			(project ""
+				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/420d7ab6-7a6e-404c-b820-acde96549ae5"
+					(reference "J21")
+					(unit 1)
+				)
+				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/82d26029-2514-464b-b918-c848fe41d8d3"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 66.04 189.23 0)
 		(unit 1)
@@ -4894,79 +4537,6 @@
 				)
 				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/82d26029-2514-464b-b918-c848fe41d8d3"
 					(reference "#PWR0252")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Fan_ALT")
-		(at 223.52 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43e4f44d-c535-4213-9561-9187c659f41d")
-		(property "Reference" "M3"
-			(at 217.17 114.3001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Water pump"
-			(at 217.17 111.7601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "portabeer:Molex_KK-254_1x02_P2.54mm_Horizontal"
-			(at 223.52 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fan without PWM or tach, alternative symbol"
-			(at 223.52 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "163a2498-6933-4577-9124-32345d83227f")
-		)
-		(pin "1"
-			(uuid "6966fa49-bdc3-4521-9431-b0fba4cd5633")
-		)
-		(instances
-			(project ""
-				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/420d7ab6-7a6e-404c-b820-acde96549ae5"
-					(reference "M3")
-					(unit 1)
-				)
-				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/82d26029-2514-464b-b918-c848fe41d8d3"
-					(reference "M6")
 					(unit 1)
 				)
 			)
@@ -5566,7 +5136,8 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 212.09 30.48 0)
+		(at 222.25 20.32 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5575,7 +5146,7 @@
 		(fields_autoplaced yes)
 		(uuid "6badd034-a4c0-41b9-8c89-51abd603b9bd")
 		(property "Reference" "#PWR0228"
-			(at 212.09 34.29 0)
+			(at 222.25 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5155,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 212.09 25.4 0)
+			(at 222.25 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +5163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 30.48 0)
+			(at 222.25 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,7 +5172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 30.48 0)
+			(at 222.25 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,7 +5181,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 212.09 30.48 0)
+			(at 222.25 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6288,7 +5859,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 222.25 30.48 0)
+		(at 238.76 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6297,7 +5868,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a63c144-b5a5-48ec-a68d-7c01508447ee")
 		(property "Reference" "#PWR0229"
-			(at 222.25 34.29 0)
+			(at 238.76 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6306,7 +5877,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 222.25 25.4 0)
+			(at 238.76 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +5885,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 30.48 0)
+			(at 238.76 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +5894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 30.48 0)
+			(at 238.76 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6332,7 +5903,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 222.25 30.48 0)
+			(at 238.76 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,86 +6144,6 @@
 				)
 				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/82d26029-2514-464b-b918-c848fe41d8d3"
 					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Fan_4pin")
-		(at 222.25 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9723e0ca-d089-4b6b-b819-ea66543f3c56")
-		(property "Reference" "M7"
-			(at 227.33 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fan_4pin"
-			(at 227.33 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "portabeer:Molex_KK-254_1x03_P2.54mm_Horizontal"
-			(at 222.25 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
-			(at 222.25 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
-			(at 222.25 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "7fa47d8f-1530-44ef-87be-548adcd6e50b")
-		)
-		(pin "3"
-			(uuid "d1ca9904-24af-448e-8285-eda3d4859efb")
-		)
-		(pin "2"
-			(uuid "edf4d161-017d-4760-9abc-f5d545eda817")
-		)
-		(pin "1"
-			(uuid "07add2b7-5d53-41c0-9028-9234b5835407")
-		)
-		(instances
-			(project ""
-				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/420d7ab6-7a6e-404c-b820-acde96549ae5"
-					(reference "M7")
-					(unit 1)
-				)
-				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/82d26029-2514-464b-b918-c848fe41d8d3"
-					(reference "M8")
 					(unit 1)
 				)
 			)
@@ -8243,8 +7734,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 212.09 34.29 0)
-		(mirror y)
+		(at 222.25 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8252,7 +7742,7 @@
 		(dnp no)
 		(uuid "e70f9f53-6ce2-4bbf-a06b-1b62d06746f0")
 		(property "Reference" "R66"
-			(at 209.55 33.0199 0)
+			(at 224.79 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8261,7 +7751,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 209.55 35.5599 0)
+			(at 224.79 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,7 +7760,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 213.868 34.29 90)
+			(at 220.472 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,7 +7769,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 34.29 0)
+			(at 222.25 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8288,7 +7778,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 212.09 34.29 0)
+			(at 222.25 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8310,6 +7800,81 @@
 				)
 				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/82d26029-2514-464b-b918-c848fe41d8d3"
 					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 214.63 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e75f37f5-f1c8-4441-89dd-74a7db7a9c9f")
+		(property "Reference" "J19"
+			(at 214.63 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FAN"
+			(at 214.63 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
+			(at 214.63 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 214.63 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2f93f4c8-b4b1-43f6-bf86-102ee0318386")
+		)
+		(pin "2"
+			(uuid "a151dadf-1a0f-4bd4-b3f9-d9d0f885493f")
+		)
+		(pin "1"
+			(uuid "743d0bf6-96c4-46dd-a412-bb6946123b72")
+		)
+		(instances
+			(project ""
+				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/420d7ab6-7a6e-404c-b820-acde96549ae5"
+					(reference "J19")
+					(unit 1)
+				)
+				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/82d26029-2514-464b-b918-c848fe41d8d3"
+					(reference "J20")
 					(unit 1)
 				)
 			)

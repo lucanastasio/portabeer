@@ -4776,6 +4776,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 134.62) (xy 173.99 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8228a455-2b73-42af-a882-cf8808dbdb46")
+	)
+	(wire
+		(pts
 			(xy 259.08 104.14) (xy 259.08 106.68)
 		)
 		(stroke
@@ -5452,7 +5462,7 @@
 		(uuid "da93f3ce-7527-4f38-9056-df18fc4c67c5")
 	)
 	(label "BAT_NTC"
-		(at 173.99 134.62 180)
+		(at 142.24 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8928,6 +8938,74 @@
 			(project "portabeer_pcb"
 				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/1d31c221-9102-4c6e-88ae-84173ddae6a8"
 					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 134.62 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88eabfd2-6c79-49db-a108-f0ff44a22663")
+		(property "Reference" "R68"
+			(at 146.05 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 146.05 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 146.05 132.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9adab42a-0690-4b33-8570-aff36739c139")
+		)
+		(pin "1"
+			(uuid "073df19d-553d-432c-a548-562b648dd8e2")
+		)
+		(instances
+			(project "portabeer_pcb"
+				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/1d31c221-9102-4c6e-88ae-84173ddae6a8"
+					(reference "R68")
 					(unit 1)
 				)
 			)

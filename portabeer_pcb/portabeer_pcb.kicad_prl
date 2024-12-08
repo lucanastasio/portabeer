@@ -2,7 +2,7 @@
   "board": {
     "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -85,6 +85,18 @@
           "pos_y": 0,
           "size_x": 1712,
           "size_y": 909
+        }
+      },
+      {
+        "name": "portabeer_pcb.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": 860,
+          "pos_y": 0,
+          "size_x": 1720,
+          "size_y": 1413
         }
       }
     ]
