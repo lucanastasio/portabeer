@@ -683,6 +683,237 @@
 		)
 		(uuid "fe6fa953-4d6b-4f9d-b2c2-b489297c65b3")
 	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 19.05 19.05)
+		(row_heights 3.81 2.54 2.54 2.54 2.54 2.54)
+		(cells
+			(table_cell "I2C Device"
+				(exclude_from_sim no)
+				(at 63.5 127 0)
+				(size 19.05 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "623c0873-9ad2-456e-94ce-00dd2538ee03")
+			)
+			(table_cell "Address"
+				(exclude_from_sim no)
+				(at 82.55 127 0)
+				(size 19.05 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "b92b0197-d1eb-45af-bb36-57b452cd4057")
+			)
+			(table_cell "ADS7828"
+				(exclude_from_sim no)
+				(at 63.5 130.81 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0a761a12-4b4b-43c8-a937-a78e5575a19d")
+			)
+			(table_cell "10010XX"
+				(exclude_from_sim no)
+				(at 82.55 130.81 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "eb461c24-bac6-499a-a797-51e69194756c")
+			)
+			(table_cell "LTC2943"
+				(exclude_from_sim no)
+				(at 63.5 133.35 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2967aafc-4a38-40d5-9b82-9a67430b2951")
+			)
+			(table_cell "1100100"
+				(exclude_from_sim no)
+				(at 82.55 133.35 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "92c0d79b-3575-4c9e-a1b5-3635fda0fc55")
+			)
+			(table_cell "MCP47FEB12"
+				(exclude_from_sim no)
+				(at 63.5 135.89 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6059a5d2-9b8a-4803-a388-f416fa83fbba")
+			)
+			(table_cell "11000XX"
+				(exclude_from_sim no)
+				(at 82.55 135.89 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "08dbbb54-a35d-486d-a60d-077d44f1870f")
+			)
+			(table_cell "PCA9536DP"
+				(exclude_from_sim no)
+				(at 63.5 138.43 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c2bc5996-994e-4cd0-af83-bf521f2f1e8d")
+			)
+			(table_cell "1000001"
+				(exclude_from_sim no)
+				(at 82.55 138.43 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d756c7c4-75a7-4919-900e-b2f720d4282d")
+			)
+			(table_cell "FDC1004"
+				(exclude_from_sim no)
+				(at 63.5 140.97 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a4460845-b99a-4def-ae3a-ab257c65c15a")
+			)
+			(table_cell "1010000"
+				(exclude_from_sim no)
+				(at 82.55 140.97 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "dda0cfea-aede-44c5-a77a-0da9d50bdfdc")
+			)
+		)
+	)
 	(label "PRESS"
 		(at 35.56 55.88 180)
 		(effects
