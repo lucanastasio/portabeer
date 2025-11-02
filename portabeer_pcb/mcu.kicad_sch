@@ -1514,6 +1514,263 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Thermistor_NTC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TH"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Thermistor_NTC"
+				(at 3.175 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thermistor_NTC_0_1"
+				(arc
+					(start -3.175 2.413)
+					(mid -3.0506 2.3165)
+					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.048 2.794)
+					(mid -2.9736 2.9736)
+					(end -2.794 3.048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 3.048)
+					(mid -2.6144 2.9736)
+					(end -2.54 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 2.54)
+					(mid -2.9736 2.6144)
+					(end -3.048 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 1.905)
+					(mid -2.9736 1.9794)
+					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.159)
+					(mid -2.6144 1.9794)
+					(end -2.794 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.159 2.794)
+					(mid -2.434 2.5608)
+					(end -2.794 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -2.54 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
+						(xy -1.778 -3.429)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Thermistor_NTC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_RaspberryPi:RP2040"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4055,7 +4312,7 @@
 	)
 	(text "(LED)"
 		(exclude_from_sim no)
-		(at 208.28 117.348 0)
+		(at 203.962 117.348 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4075,7 +4332,7 @@
 	)
 	(text "(LCD_MISO)"
 		(exclude_from_sim no)
-		(at 208.28 104.648 0)
+		(at 212.09 105.156 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4108,6 +4365,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4007d472-d32e-459f-9f44-93d68127a2d3")
+	)
+	(junction
+		(at 254 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4418a98c-6038-4ccf-bb63-ceec14f800b5")
 	)
 	(junction
 		(at 124.46 100.33)
@@ -4162,33 +4425,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbf8778a-4e6b-46fb-9443-68f182ce8584")
-	)
-	(bus_entry
-		(at 215.9 115.57)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16dcc406-ba1a-4893-a1c0-998fb8335551")
-	)
-	(bus_entry
-		(at 215.9 128.27)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f23e192-9a0a-43e1-974f-43f1a94a806e")
-	)
-	(bus_entry
-		(at 215.9 102.87)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86954a82-0445-47ac-aee1-604fb534ee7c")
 	)
 	(wire
 		(pts
@@ -4252,6 +4488,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 88.9) (xy 254 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6e6995-a110-4876-b21a-cd4d45b01477")
+	)
+	(wire
+		(pts
 			(xy 196.85 85.09) (xy 194.31 85.09)
 		)
 		(stroke
@@ -4269,16 +4515,6 @@
 			(type default)
 		)
 		(uuid "139e9ed8-2ab3-45e0-8532-88d10909dc04")
-	)
-	(bus
-		(pts
-			(xy 215.9 48.26) (xy 215.9 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15c8960c-b640-4deb-9ca7-425eba792fdb")
 	)
 	(wire
 		(pts
@@ -4412,16 +4648,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 130.81) (xy 213.36 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "351507c3-ba20-466e-9d22-196e99e7ad22")
-	)
-	(wire
-		(pts
 			(xy 196.85 128.27) (xy 194.31 128.27)
 		)
 		(stroke
@@ -4522,7 +4748,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 118.11) (xy 213.36 118.11)
+			(xy 194.31 118.11) (xy 196.85 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4650,15 +4876,15 @@
 		)
 		(uuid "6a8099c0-4731-447b-8a84-5422aba33b4c")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 215.9 102.87) (xy 215.9 115.57)
+			(xy 194.31 105.41) (xy 196.85 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b78aad4-b20d-4e72-b21e-247f273cd1ae")
+		(uuid "6bddc3d1-6e30-4d3b-b475-0b9a2972237f")
 	)
 	(wire
 		(pts
@@ -4669,16 +4895,6 @@
 			(type default)
 		)
 		(uuid "6ca776b3-3f23-4be0-b2b5-e961366cf84f")
-	)
-	(bus
-		(pts
-			(xy 215.9 115.57) (xy 215.9 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e0614ef-ff8e-46f8-9fe7-1d5106a1ecea")
 	)
 	(wire
 		(pts
@@ -4772,6 +4988,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 130.81) (xy 196.85 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0b26b7-2909-423d-a57f-a013016613ea")
+	)
+	(wire
+		(pts
 			(xy 92.71 156.21) (xy 90.17 156.21)
 		)
 		(stroke
@@ -4822,16 +5048,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 105.41) (xy 213.36 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0aa40d5-c59c-4ac2-8d0b-feadcc94a10e")
-	)
-	(wire
-		(pts
 			(xy 196.85 115.57) (xy 194.31 115.57)
 		)
 		(stroke
@@ -4859,6 +5075,16 @@
 			(type default)
 		)
 		(uuid "ae9ca413-49d9-4592-85dd-933eded4df32")
+	)
+	(wire
+		(pts
+			(xy 254 88.9) (xy 254 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af8187d8-0af7-42a1-864f-ccf0629eed25")
 	)
 	(wire
 		(pts
@@ -4979,6 +5205,16 @@
 			(type default)
 		)
 		(uuid "cf650634-392a-4288-aed7-b157b1548af6")
+	)
+	(wire
+		(pts
+			(xy 254 86.36) (xy 254 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf665434-5283-4258-b8bf-48ec97a19e6d")
 	)
 	(wire
 		(pts
@@ -5290,16 +5526,6 @@
 		)
 		(uuid "6ffa44dc-d7e4-48ea-bc90-f11352a46f19")
 	)
-	(label "IO20"
-		(at 196.85 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "719cfc9f-cb91-482f-a041-e0dc16276469")
-	)
 	(label "ENC_B"
 		(at 196.85 110.49 0)
 		(effects
@@ -5390,15 +5616,15 @@
 		)
 		(uuid "85b99d31-c2f6-4324-a584-0eb5ed1c27f5")
 	)
-	(label "IO29"
-		(at 196.85 130.81 0)
+	(label "PCB_NTC"
+		(at 251.46 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "87940f4b-87d6-4f10-8303-5500daf856f6")
+		(uuid "8d9e6a9d-674a-4956-a493-53e91f4a9c5b")
 	)
 	(label "LCD_CS"
 		(at 196.85 107.95 0)
@@ -5539,6 +5765,16 @@
 			(justify right bottom)
 		)
 		(uuid "e833f6f2-b318-4905-8e33-daa2d23e564a")
+	)
+	(label "PCB_NTC"
+		(at 196.85 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0bf20f3-4341-4075-8815-9484ed16b3d1")
 	)
 	(label "SDA"
 		(at 256.54 64.77 180)
@@ -5810,6 +6046,17 @@
 		)
 		(uuid "e98d7f18-72a8-4c22-8a89-3d7566936b94")
 	)
+	(hierarchical_label "PCB_FAN"
+		(shape output)
+		(at 196.85 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbad5aa0-146b-4a72-8afb-01776abcf98b")
+	)
 	(hierarchical_label "~{PB}"
 		(shape output)
 		(at 269.24 129.54 0)
@@ -5949,6 +6196,72 @@
 			(project "portabeer_pcb"
 				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/783fd70d-8fbd-431c-9e92-8304911c49c5"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06ea9183-8feb-41d7-8b68-ce91e7575245")
+		(property "Reference" "#PWR0285"
+			(at 254 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "117c730c-4a0c-4c97-918e-98cbcb27f4f4")
+		)
+		(instances
+			(project "portabeer_pcb"
+				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/783fd70d-8fbd-431c-9e92-8304911c49c5"
+					(reference "#PWR0285")
 					(unit 1)
 				)
 			)
@@ -6687,6 +7000,76 @@
 			(project "portabeer_pcb"
 				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/783fd70d-8fbd-431c-9e92-8304911c49c5"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 254 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32f795e7-8e4e-4cbb-911f-f09ffdbd671c")
+		(property "Reference" "TH1"
+			(at 251.46 94.2974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Thermistor_NTC"
+			(at 251.46 96.8374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 254 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 254 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4ce5be3-4e1a-48e7-89ba-31f7417e7052")
+		)
+		(pin "2"
+			(uuid "f30da485-b78b-4138-8a18-6b1e4cab52e8")
+		)
+		(instances
+			(project ""
+				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/783fd70d-8fbd-431c-9e92-8304911c49c5"
+					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -8149,6 +8532,72 @@
 			(project ""
 				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/783fd70d-8fbd-431c-9e92-8304911c49c5"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 254 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d079e0b-f75c-4bff-b1af-63726769a1fc")
+		(property "Reference" "#PWR0286"
+			(at 254 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 254 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 254 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16823a0f-400a-4d1c-ae59-6b1d5c994a81")
+		)
+		(instances
+			(project "portabeer_pcb"
+				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/783fd70d-8fbd-431c-9e92-8304911c49c5"
+					(reference "#PWR0286")
 					(unit 1)
 				)
 			)
@@ -10648,6 +11097,76 @@
 			(project "portabeer_pcb"
 				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/783fd70d-8fbd-431c-9e92-8304911c49c5"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 254 82.55 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd33f784-189c-498d-a35b-eba9b81d0c20")
+		(property "Reference" "R70"
+			(at 251.46 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 251.46 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 252.222 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e682cbe-beef-4b31-9da3-452720a16ad9")
+		)
+		(pin "1"
+			(uuid "d79e8704-9b44-4ee5-bf92-05f47e4608be")
+		)
+		(instances
+			(project "portabeer_pcb"
+				(path "/bb676e84-aa44-417a-9a70-748af1c322fb/783fd70d-8fbd-431c-9e92-8304911c49c5"
+					(reference "R70")
 					(unit 1)
 				)
 			)
